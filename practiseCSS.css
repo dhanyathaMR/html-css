@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+    line-height: 2.5;
+}
+header{
+    background-color: #ffdab9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+}
+#About{
+    text-align: center; 
+}
+
+.button{
+    background-color: orange;
+    padding:15px;
+    border: 10px;
+    border-radius: 10px;
+    
+}
+#Skills{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    
+}
+.skill{
+    background-color: orange;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    
+}
+#Contact{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: orange;
+    border:1rem;
+    padding:0.75px;
+    border-radius: 5px;
+}
