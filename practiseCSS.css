@@ -18,12 +18,17 @@ nav ul{
 #About{
     text-align: center; 
 }
-
 .button{
     background-color: orange;
     padding:15px;
     border: 10px;
     border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover{
+    color: antiquewhite;
+    background-color: chocolate;
     
 }
 #Skills{
@@ -54,3 +59,4 @@ footer{
     padding:0.75px;
     border-radius: 5px;
 }
+
